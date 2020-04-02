@@ -5,7 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eshop-auth2/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-common/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-member/pom.xml" />
       </list>
     </option>
   </component>
