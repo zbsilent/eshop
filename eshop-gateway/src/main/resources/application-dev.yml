@@ -20,13 +20,18 @@ zuul:
     member:
       path: /member/**
       serviceId: eshop-member
+      # 会过滤客户端请求中的和该配置项匹配的headers
       sensitiveHeaders: "*"
     auth:
       path: /auth/**
       serviceId: eshop-auth
       sensitiveHeaders: "*"
+  # 是否开启重试
   retryable: false
+  # 会过滤服务之间通信附带的headers
   ignored-services: "*"
+  # 解决的方法很简单，既然第一次调用时候产生RibbonClient耗时，那么就让它提前创建，而不是在第一次调用的时候创建。
+  # 开启Ribbon的饥饿加载模式
   ribbon:
     eager-load:
       enabled: true
@@ -53,6 +58,7 @@ ribbon:
   ConnectTimeout: 3000
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 2
+  # 金庸eurecka
   eureka:
     enabled: true
 hystrix:

@@ -18,7 +18,7 @@ import java.util.Set;
 
 /**
  * 〈自定义UserDetailService〉
- *
+ *构造用户信息
  * @author Curise
  * @create 2018/12/13
  * @since 1.0.0
@@ -29,12 +29,19 @@ public class MyUserDetailService implements UserDetailsService {
     @Autowired
     private MemberDao memberDao;
 
+
     @Override
     public UserDetails loadUserByUsername(String memberName) throws UsernameNotFoundException {
-        Member member = memberDao.findByMemberName(memberName);
+        Member member = null;
+        try{
+            member = memberDao.findByMemberName(memberName);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         if (member == null) {
             throw new UsernameNotFoundException(memberName);
         }
+        // 所有的Authentication实现类都保存了一个GrantedAuthority列表，其表示用户所具有的权限
         Set<GrantedAuthority> grantedAuthorities = new HashSet<>();
         // 可用性 :true:可用 false:不可用
         boolean enabled = true;

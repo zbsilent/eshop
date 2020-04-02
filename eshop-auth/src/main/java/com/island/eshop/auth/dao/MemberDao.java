@@ -43,5 +43,5 @@ public interface MemberDao {
 //
 //    })
 
-    Member findByMemberName(@Param("memberName") String memberName);
+    Member findByMemberName(String memberName);
 }

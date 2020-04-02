@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eshop-member" />
+        <module name="eshop-auth" />
         <module name="eshop-gateway" />
         <module name="eshop-server" />
-        <module name="eshop-auth" />
+        <module name="eshop-member" />
         <module name="eshop-common" />
       </profile>
     </annotationProcessing>

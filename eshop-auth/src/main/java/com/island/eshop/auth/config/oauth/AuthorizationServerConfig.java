@@ -47,6 +47,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     @Bean
     public TokenStore tokenStore() {
+
         return new RedisTokenStore(redisConnectionFactory);
     }
 
@@ -56,23 +57,38 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         return new JdbcTokenStore(dataSource);
     }
 
+    /**
+     * 允许表单认证
+     * 主要是让/oauth/token支持client_id以及client_secret作登录认证
+     * @param security
+     * @throws Exception
+     */
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
         security
                 .allowFormAuthenticationForClients()
+                // 开启/oauth/token_key验证端口无权限访问
                 .tokenKeyAccess("permitAll()")
+                // 开启/oauth/check_token验证端口认证权限访问
                 .checkTokenAccess("isAuthenticated()");
     }
-
+    /**
+     * 使用JdbcClientDetailsService客户端详情服务
+     * clients.withClientDetails(new JdbcClientDetailsService(dataSource));
+     */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+
+        //数据库中或得
         clients.withClientDetails(clientDetails());
 //        clients.inMemory()
 //                .withClient("android")
 //                .scopes("read")
 //                .secret("android")
 //                .authorizedGrantTypes("password", "authorization_code", "refresh_token")
+//
 //                .and()
+
 //                .withClient("webapp")
 //                .scopes("read")
 //                .authorizedGrantTypes("implicit")
@@ -91,8 +107,14 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         return new MssWebResponseExceptionTranslator();
     }
 
+    /**
+     * 配置令牌 管理 (jwtAccessTokenConverter)
+     * @param endpoints
+     * @throws Exception
+     */
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+        //存数据库
         endpoints.tokenStore(jdbcTokenStore())
                 .userDetailsService(userDetailService)
                 .authenticationManager(authenticationManager);
@@ -109,7 +131,9 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Bean
     public DefaultTokenServices defaultTokenServices(){
         DefaultTokenServices tokenServices = new DefaultTokenServices();
-        tokenServices.setTokenStore(jdbcTokenStore());
+
+        //jdbcTokenStore()
+        tokenServices.setTokenStore(tokenStore());
         tokenServices.setSupportRefreshToken(true);
         // token有效期自定义设置，默认12小时
         tokenServices.setAccessTokenValiditySeconds(60*60*12);

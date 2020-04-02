@@ -26,6 +26,16 @@ public class MemberController {
     @Autowired
     private ConsumerTokenServices consumerTokenServices;
 
+    /**
+     * 获取当前认证用户(authenticated principal)最简单的方式是通过SecurityContextHolder类的静态方法
+     * Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+     * String currentPrincipalName = authentication.getName();
+     * UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+     *
+     * 在@Controller 注解的bean里，有额外的选项。principal 可以直接作为方法参数，框架会自动赋值。
+     *
+     * 这个对象通常是UserDetails的实例
+     */
     @GetMapping("/member")
     public Principal user(Principal member) {
         return member;

@@ -15,7 +15,8 @@ spring:
         max-idle: 8
         min-idle: 0
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    #com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/eshop?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
     username: root
     password:
@@ -46,6 +47,7 @@ eureka:
 
 mybatis:
   type-aliases-package: com.island.eshop.common.entity
+  mapper-locations: classpath:mybatis/*.xml
   configuration:
     map-underscore-to-camel-case: true  #开启驼峰命名,l_name -> lName
     jdbc-type-for-null: NULL
@@ -53,6 +55,3 @@ mybatis:
     aggressive-lazy-loading: true
     cache-enabled: true #开启二级缓存
     call-setters-on-nulls: true #map空列不显示问题
-  mapper-locations:
-    - classpath:mybatis/*.xml
-
