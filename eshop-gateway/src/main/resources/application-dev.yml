@@ -26,6 +26,10 @@ zuul:
       path: /auth/**
       serviceId: eshop-auth
       sensitiveHeaders: "*"
+    openapi: # 名字随便起
+      path: /openapi/** # 服务地址
+      serviceId: yonyou-api
+      sensitiveHeaders: "*"
   # 是否开启重试
   retryable: false
   # 会过滤服务之间通信附带的headers

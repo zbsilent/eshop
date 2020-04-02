@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: yonyou-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eshop?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    username: root
+    password:
+  redis:
+    database: 1
+    host: localhost
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+server:
+  port: 8005
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+# 认证用户加载
+security:
+  oauth2:
+    resource:
+      id: eshop-member
+      #指定用户信息地址
+      user-info-uri: http://localhost:8002/auth/api/member
+      prefer-token-info: false
+
+feign:
+  httpclient:
+    enabled: false
+    connection-timeout: 60000
+  okhttp:
+    enabled: true
+  hystrix:
+    enabled: false
+

@@ -12,7 +12,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8001/eureka/
-
+# 认证用户加载
 security:
   oauth2:
     resource:
