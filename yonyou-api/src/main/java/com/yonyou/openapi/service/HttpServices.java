@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface HttpServices {
 
 
-//    String URL = "https://openapi.yonyoucloud.com/token?appid=xxx&secret=xxx";
+    //String URL = "https://openapi.yonyoucloud.com/token?appid=xxx&secret=xxx";
     //String URL  = "";
 
     @RequestMapping(value = "/token",method = RequestMethod.GET)
-    @CachePut(value = "tokenjson",key = "#secret")
+    @CachePut(value = "token",key = "method.name + '_' + #secret" )
     String getToken(@RequestParam(name="appid")String appid, @RequestParam(name="secret")String secret) ;
 
 }

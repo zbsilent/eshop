@@ -16,6 +16,19 @@ spring:
         max-active: 8
         max-idle: 8
         min-idle: 0
+  thymeleaf:
+    servlet:
+      content-type: text/html
+    prefix: classpath:/templates/
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
 server:
   port: 8005
 
@@ -43,4 +56,3 @@ feign:
     enabled: true
   hystrix:
     enabled: false
-
