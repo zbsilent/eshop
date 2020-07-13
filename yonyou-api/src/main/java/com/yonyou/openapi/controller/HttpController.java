@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.yonyou.openapi.service.HttpServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,8 +12,9 @@ import java.util.Map;
 
 /**
  * @author zbsilent
+ * 这里跳转页面不需要返回结果 用Cotroller
  */
-@RestController
+@Controller
 @RequestMapping("/yy")
 public class HttpController {
 
@@ -40,7 +42,8 @@ public class HttpController {
             modelMap.addAttribute("token",JSONObject.parseObject(token).getString("data"));
         }
         if(modelMap.containsKey("token")){
-             return JSONObject.parseObject(modelMap.getAttribute("token").toString()).getString("access_token");
+             //return JSONObject.parseObject(modelMap.getAttribute("token").toString()).getString("access_token");
+            return INDEX_URL;
         }else{
             return "查询异常";
         }

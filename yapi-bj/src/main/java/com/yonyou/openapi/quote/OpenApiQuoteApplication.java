@@ -1,4 +1,4 @@
-package com.yonyou.yapi;
+package com.yonyou.openapi.quote;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -18,11 +18,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableFeignClients
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @EnableTransactionManagement
-@MapperScan("com.yonyou.yapi.bj.mapper")
-public class YApiApplication {
+@MapperScan("com.yonyou.openapi.quote.mapper")
+public class OpenApiQuoteApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YApiApplication.class, args);
+        SpringApplication.run(OpenApiQuoteApplication.class, args);
     }
 
 }

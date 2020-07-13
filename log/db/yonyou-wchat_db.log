@@ -8,3 +8,186 @@
 2020-07-13 01:11:03.173 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, index_code, index_name, index_sum, exits_time, createTime
 2020-07-13 01:11:03.174 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 22, 22, 22, 1970-01-01, 1970-01-01 00:00:00
 2020-07-13 01:11:03.175 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 11:43:36.725 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote 
+2020-07-13 11:43:36.765 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 
+2020-07-13 11:43:36.854 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 0
+2020-07-13 11:53:31.612 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote 
+2020-07-13 11:53:31.655 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 
+2020-07-13 11:53:31.698 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 11:53:31.700 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 11:53:31.750 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 11:53:31.753 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 11:53:31.756 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 11:53:31.785 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 11:53:31.786 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 11:53:31.789 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 11:53:31.790 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 12:00:55.897 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote 
+2020-07-13 12:00:55.940 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 
+2020-07-13 12:00:55.985 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 12:00:55.988 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 12:00:56.036 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 12:07:47.756 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote 
+2020-07-13 12:07:47.778 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 
+2020-07-13 12:07:47.827 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 12:07:47.830 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 12:07:47.839 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 12:08:47.569 -DEBUG  [nio-8006-exec-6] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote 
+2020-07-13 12:08:47.571 -DEBUG  [nio-8006-exec-6] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 
+2020-07-13 12:08:47.602 -TRACE  [nio-8006-exec-6] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 12:08:47.603 -TRACE  [nio-8006-exec-6] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 12:08:47.605 -DEBUG  [nio-8006-exec-6] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:13:51.860 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:13:51.901 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:13:51.941 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:13:51.944 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:13:51.988 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:14:34.845 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:14:34.846 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:14:34.876 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:14:34.878 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:14:34.881 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:14:40.708 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:14:40.711 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 2(Integer)
+2020-07-13 13:14:40.751 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:14:40.752 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 02, 增加按钮, 5, 2020-07-13, 2020-07-13 13:14:25
+2020-07-13 13:14:40.754 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:17:58.129 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:17:58.257 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:17:58.310 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:17:58.313 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:17:58.400 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:19:53.956 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:19:53.959 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:19:53.996 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:19:53.997 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:19:54.001 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:21:20.873 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:21:20.901 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 2(Integer)
+2020-07-13 13:21:20.946 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:21:20.951 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 02, 增加按钮, 5, 2020-07-13, 2020-07-13 13:14:25
+2020-07-13 13:21:20.993 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:26:21.828 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:26:21.861 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:26:21.908 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:26:21.912 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:26:21.955 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:26:25.575 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:26:25.577 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 2(Integer)
+2020-07-13 13:26:25.622 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 0
+2020-07-13 13:26:41.285 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:26:41.286 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:26:41.321 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:26:41.322 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:26:41.324 -TRACE  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:26:41.326 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:26:57.473 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:26:57.474 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:26:57.511 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:26:57.511 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:26:57.513 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:26:57.514 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:27:08.537 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:27:08.540 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:27:08.585 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:27:08.587 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:27:08.588 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:27:08.589 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:28:16.258 -DEBUG  [nio-8006-exec-7] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:28:16.259 -DEBUG  [nio-8006-exec-7] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:28:16.313 -TRACE  [nio-8006-exec-7] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:28:16.314 -TRACE  [nio-8006-exec-7] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:28:16.315 -TRACE  [nio-8006-exec-7] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:28:16.315 -DEBUG  [nio-8006-exec-7] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:29:29.034 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:29:29.066 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:29:29.116 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:29:29.118 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:29:29.162 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:29:37.948 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:29:37.949 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:29:37.987 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:29:37.989 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:29:37.992 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:29:37.993 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:31:02.219 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:31:02.220 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:31:02.257 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:31:02.258 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:31:02.260 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:33:08.254 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:33:08.285 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:33:08.334 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:33:08.336 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:33:08.403 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:33:08.407 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:33:08.408 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:33:08.444 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:33:08.445 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:33:08.448 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:33:08.449 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:35:48.300 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:35:48.339 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:35:48.382 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:35:48.386 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:35:48.456 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:35:48.457 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:35:48.458 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:35:48.497 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:35:48.499 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:35:48.500 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:35:48.501 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:38:29.644 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:38:29.685 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:38:29.734 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:38:29.737 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:38:29.783 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:38:29.787 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:38:29.787 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:38:29.828 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:38:29.830 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:38:29.832 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:38:29.832 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:38:34.788 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:38:34.789 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:38:34.819 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitme_code, quoteitme_name, quoteitme_unm, createTime
+2020-07-13 13:38:34.822 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 开发环境搭建, 5, 2020-07-13 11:12:32
+2020-07-13 13:38:34.824 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 元数据及数据库设计, 5, 2020-07-13 11:13:00
+2020-07-13 13:38:34.825 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:42:21.438 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:42:21.442 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:42:21.475 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitem_code, quoteitem_name, quoteitem_unm, createTime
+2020-07-13 13:42:21.476 -TRACE  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 元数据及数据库设计, 2, 2020-07-13 13:41:25
+2020-07-13 13:42:46.252 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:42:46.254 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:42:46.294 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitem_code, quoteitem_name, quoteitem_unm, createTime
+2020-07-13 13:42:46.295 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 元数据及数据库设计, 2, 2020-07-13 13:41:25
+2020-07-13 13:44:07.218 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:44:07.254 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:44:07.300 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitem_code, quoteitem_name, quoteitem_unm, createTime
+2020-07-13 13:44:07.304 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 元数据及数据库设计, 2, 2020-07-13 13:41:25
+2020-07-13 13:44:07.307 -TRACE  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 前台模版设计及开发, 2, 2020-07-13 13:41:55
+2020-07-13 13:44:07.308 -DEBUG  [nio-8006-exec-1] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:44:16.338 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:44:16.342 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:44:16.373 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitem_code, quoteitem_name, quoteitem_unm, createTime
+2020-07-13 13:44:16.374 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 元数据及数据库设计, 2, 2020-07-13 13:41:25
+2020-07-13 13:44:16.375 -TRACE  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 前台模版设计及开发, 2, 2020-07-13 13:41:55
+2020-07-13 13:44:16.377 -DEBUG  [nio-8006-exec-2] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2
+2020-07-13 13:44:32.911 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:44:32.912 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 2(Integer)
+2020-07-13 13:44:32.964 -DEBUG  [nio-8006-exec-3] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 0
+2020-07-13 13:44:34.643 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:44:34.644 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 2(Integer)
+2020-07-13 13:44:34.673 -DEBUG  [nio-8006-exec-4] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 0
+2020-07-13 13:44:39.822 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: SELECT * FROM openapi_quote where id=? 
+2020-07-13 13:44:39.823 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:44:39.862 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_code, quote_name, quote_sum, exits_time, createTime
+2020-07-13 13:44:39.864 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 01, 单据开发, 10, 2020-07-13, 2020-07-13 11:12:04
+2020-07-13 13:44:39.922 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 1
+2020-07-13 13:44:39.924 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==>  Preparing: select t.* from openapi_quote_item t where t.quote_id = ? 
+2020-07-13 13:44:39.925 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : ==> Parameters: 1(Integer)
+2020-07-13 13:44:39.959 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==    Columns: id, quote_id, quoteitem_code, quoteitem_name, quoteitem_unm, createTime
+2020-07-13 13:44:39.960 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 1, 1, 01, 元数据及数据库设计, 2, 2020-07-13 13:41:25
+2020-07-13 13:44:39.961 -TRACE  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==        Row: 2, 1, 02, 前台模版设计及开发, 2, 2020-07-13 13:41:55
+2020-07-13 13:44:39.962 -DEBUG  [nio-8006-exec-5] o.a.i.l.j.BaseJdbcLogger       : <==      Total: 2

@@ -17,7 +17,7 @@ spring:
   datasource:
     #com.mysql.jdbc.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://139.9.147.209:3306/yonyou-api?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    url: jdbc:mysql://139.9.147.209:3306/openapi?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
     username: root
     password: yonyou888
   druid:

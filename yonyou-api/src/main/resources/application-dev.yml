@@ -19,10 +19,12 @@ spring:
   thymeleaf:
     servlet:
       content-type: text/html
+    enabled: true  #开启thymeleaf视图解析
     prefix: classpath:/templates/
     cache: false
     mode: HTML5
     encoding: UTF-8
+    suffix: .html  #后缀名
   resources:
     chain:
       strategy:

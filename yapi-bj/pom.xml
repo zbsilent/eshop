@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.yonyou.yapi</groupId>
+    <groupId>com.yonyou.openapi.quote</groupId>
     <artifactId>yapi-bj</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yapi-bj</name>

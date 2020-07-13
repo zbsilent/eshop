@@ -129,7 +129,7 @@ Configuration:
         additivity: false
         AppenderRef:
           - ref: DB_ROLLING_FILE
-      - name: com.yonyou.yapi.bj.mapper
+      - name: com.yonyou.openapi.quote.mapper
         level: trace
         additivity: false
         AppenderRef:

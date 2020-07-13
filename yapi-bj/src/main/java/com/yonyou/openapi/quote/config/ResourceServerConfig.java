@@ -1,4 +1,4 @@
-package com.yonyou.yapi.config;
+package com.yonyou.openapi.quote.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

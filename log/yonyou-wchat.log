@@ -1,0 +1,1053 @@
+2020-07-13 11:42:42.714 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:42:47.835 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:42:47.842 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:42:47.893 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-07-13 11:42:48.653 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:42:49.167 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:42:49.172 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:42:49.180 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6cbb7a7d' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:42:49.185 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:42:49.192 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:42:49.864 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 11:42:49.885 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 11:42:49.887 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 11:42:49.888 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 11:42:50.229 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 11:42:50.230 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7444 ms
+2020-07-13 11:42:50.424 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 11:42:50.453 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5896cb9c
+2020-07-13 11:42:51.973 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 11:42:52.204 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 11:42:52.908 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 08c2ae36-8bc6-4672-bb49-8dfb7d55bbfe
+
+2020-07-13 11:42:53.481 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@682fe17b, org.springframework.security.web.context.SecurityContextPersistenceFilter@700202fa, org.springframework.security.web.header.HeaderWriterFilter@36857d32, org.springframework.security.web.authentication.logout.LogoutFilter@13b4ee4e, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2911db81, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27e3dc9a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65698020, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4942e6af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@418bdde9, org.springframework.security.web.session.SessionManagementFilter@102c24d1, org.springframework.security.web.access.ExceptionTranslationFilter@525b9df4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4504a4ed]
+2020-07-13 11:42:54.044 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 11:42:54.349 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 11:42:54.420 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 11:42:54.962 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 11:42:54.967 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 11:42:55.244 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 11:42:55.245 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 11:42:55.599 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:42:55.620 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 11:42:55.620 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 11:42:55.621 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 11:42:55.621 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 11:42:55.621 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 11:42:55.621 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 11:42:55.622 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 11:42:55.767 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 11:42:55.771 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 11:42:55.774 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 11:42:55.778 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594611775777 with initial instances count: 1
+2020-07-13 11:42:55.782 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 11:42:55.783 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594611775783, current=UP, previous=STARTING]
+2020-07-13 11:42:55.785 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 11:42:55.827 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 11:42:55.832 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 11:42:55.864 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 11:42:55.866 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 11:42:55.873 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 14.865 seconds (JVM running for 18.474)
+2020-07-13 11:42:56.220 - INFO  [n(12)-127.0.0.1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 11:42:56.220 - INFO  [n(12)-127.0.0.1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 11:42:56.220 - INFO  [n(13)-127.0.0.1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 11:42:56.232 - INFO  [n(12)-127.0.0.1] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2020-07-13 11:42:56.722 - INFO  [n(13)-127.0.0.1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 11:42:57.224 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 11:42:57.230 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 11:44:16.263 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 11:44:16.267 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 11:44:16.279 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 11:44:16.280 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 11:44:16.447 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 11:44:16.471 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 11:44:16.477 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 11:44:19.484 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 11:44:19.559 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 11:44:41.009 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:44:43.556 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:44:43.575 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:44:43.658 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-07-13 11:44:45.090 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:44:45.823 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:44:45.839 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:44:45.843 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6870cfac' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:44:45.846 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:44:45.849 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:44:47.080 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 11:44:47.148 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 11:44:47.152 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 11:44:47.155 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 11:44:48.106 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 11:44:48.115 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7040 ms
+2020-07-13 11:44:49.001 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 11:44:49.047 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4b544732
+2020-07-13 11:44:54.143 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 11:44:54.665 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 11:47:38.103 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:47:39.658 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:47:39.664 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:47:39.710 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-07-13 11:47:40.194 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:48:36.175 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:48:38.959 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:48:41.399 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77c66a4f' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:48:44.936 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:48:45.288 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:49:05.877 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:49:07.397 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:49:07.403 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:49:07.429 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-07-13 11:49:07.944 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:50:59.695 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:51:00.766 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:51:00.772 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:51:00.797 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-07-13 11:51:01.158 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:52:00.090 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:00.097 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:00.107 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4975dda1' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:00.112 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:00.125 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:17.143 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:52:18.283 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:52:18.288 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:52:18.313 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-07-13 11:52:18.669 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:52:39.612 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:52:40.579 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:52:40.585 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:52:40.606 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-07-13 11:52:40.946 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 11:52:41.103 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:41.107 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:41.112 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4b7ed03e' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:41.115 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:41.118 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 11:52:41.464 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 11:52:41.474 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 11:52:41.475 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 11:52:41.476 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 11:52:41.623 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 11:52:41.623 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1979 ms
+2020-07-13 11:52:41.778 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 11:52:41.790 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4a2e1e52
+2020-07-13 11:52:42.665 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 11:52:42.856 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 11:52:43.359 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: fed25581-0119-4990-b775-f57754c17e14
+
+2020-07-13 11:52:43.584 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27e3dc9a, org.springframework.security.web.context.SecurityContextPersistenceFilter@530df3ab, org.springframework.security.web.header.HeaderWriterFilter@64cdc310, org.springframework.security.web.authentication.logout.LogoutFilter@6e225c34, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@bf18412, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4023d23f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@aaa7000, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65698020, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49cd08f9, org.springframework.security.web.session.SessionManagementFilter@43b2e7db, org.springframework.security.web.access.ExceptionTranslationFilter@59043741, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ba3c03d]
+2020-07-13 11:52:43.821 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 11:52:43.908 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 11:52:43.949 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 11:52:44.169 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 11:52:44.170 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 11:52:44.329 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 11:52:44.330 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 11:52:44.566 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:52:44.584 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 11:52:44.584 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 11:52:44.584 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 11:52:44.585 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 11:52:44.585 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 11:52:44.585 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 11:52:44.585 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 11:52:44.718 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 11:52:44.721 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 11:52:44.723 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 11:52:44.727 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594612364726 with initial instances count: 4
+2020-07-13 11:52:44.736 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 11:52:44.737 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594612364737, current=UP, previous=STARTING]
+2020-07-13 11:52:44.739 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 11:52:44.768 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 11:52:44.775 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 11:52:44.817 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 11:52:44.819 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 11:52:44.829 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.118 seconds (JVM running for 7.872)
+2020-07-13 11:52:45.044 - INFO  [on(3)-127.0.0.1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 11:52:45.045 - INFO  [on(2)-127.0.0.1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 11:52:45.045 - INFO  [on(2)-127.0.0.1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 11:52:45.058 - INFO  [on(2)-127.0.0.1] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2020-07-13 11:52:45.661 - INFO  [on(3)-127.0.0.1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 11:52:45.929 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 11:52:45.931 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 11:57:44.597 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:59:29.900 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 11:59:29.912 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 11:59:29.947 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 11:59:29.975 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 11:59:30.144 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 11:59:30.224 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 11:59:30.239 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 11:59:33.255 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 11:59:33.272 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 11:59:33.294 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 11:59:40.705 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 11:59:41.983 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 11:59:41.988 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 11:59:42.017 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-07-13 11:59:42.728 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 12:00:00.219 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 12:00:01.145 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 12:00:01.148 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 12:00:01.167 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 12:00:01.471 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 12:00:01.616 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 12:00:01.623 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 12:00:01.629 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@34279b8a' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 12:00:01.632 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 12:00:01.634 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 12:00:01.930 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 12:00:01.940 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 12:00:01.941 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 12:00:01.942 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 12:00:02.076 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 12:00:02.077 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2020-07-13 12:00:02.199 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 12:00:02.209 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6eeb29c0
+2020-07-13 12:00:03.129 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 12:00:03.294 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 12:00:03.763 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: abc8eb9a-9879-46e2-b5af-14d67f2deefd
+
+2020-07-13 12:00:04.031 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ef28dc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fb1948c, org.springframework.security.web.header.HeaderWriterFilter@3225d950, org.springframework.security.web.authentication.logout.LogoutFilter@5ca7619f, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@4891d727, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@176054b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@230d013b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a3333be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59b3f162, org.springframework.security.web.session.SessionManagementFilter@1fc8047f, org.springframework.security.web.access.ExceptionTranslationFilter@57617a75, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@682fe17b]
+2020-07-13 12:00:04.282 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 12:00:04.379 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 12:00:04.422 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 12:00:04.641 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 12:00:04.641 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 12:00:04.812 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 12:00:04.813 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 12:00:05.059 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:00:05.082 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 12:00:05.083 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 12:00:05.083 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 12:00:05.083 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 12:00:05.083 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 12:00:05.084 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 12:00:05.084 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 12:00:05.216 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 12:00:05.219 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 12:00:05.221 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 12:00:05.224 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594612805224 with initial instances count: 4
+2020-07-13 12:00:05.228 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 12:00:05.229 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594612805229, current=UP, previous=STARTING]
+2020-07-13 12:00:05.231 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 12:00:05.253 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 12:00:05.254 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 12:00:05.287 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 12:00:05.289 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 12:00:05.301 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.27 seconds (JVM running for 8.069)
+2020-07-13 12:00:05.919 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 12:00:05.921 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 12:00:05.921 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 12:00:05.932 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 10 ms
+2020-07-13 12:00:06.578 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 12:00:06.835 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 12:00:06.837 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 12:05:05.095 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:10:05.104 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:15:05.201 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:13:04.199 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:13:04.215 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:13:04.244 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:13:04.299 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:13:04.579 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:13:04.641 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:13:04.664 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:13:07.673 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:13:07.686 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:13:07.708 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:13:16.912 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:13:17.923 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:13:17.926 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:13:17.946 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-07-13 13:13:18.245 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:13:18.384 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:13:18.387 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:13:18.393 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4f235107' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:13:18.397 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:13:18.399 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:13:18.701 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:13:18.710 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:13:18.711 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:13:18.712 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:13:18.843 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:13:18.844 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1887 ms
+2020-07-13 13:13:18.956 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:13:18.972 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c2dd89b
+2020-07-13 13:13:19.912 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:13:20.094 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:13:20.554 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 4cd571bb-cb70-44fa-bd65-247d579952c0
+
+2020-07-13 13:13:20.774 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19355a56, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c451c4a, org.springframework.security.web.header.HeaderWriterFilter@1368e2f7, org.springframework.security.web.authentication.logout.LogoutFilter@25ee3caa, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7910e307, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58e7f930, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73ff7a54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@176054b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ff23bd1, org.springframework.security.web.session.SessionManagementFilter@240df292, org.springframework.security.web.access.ExceptionTranslationFilter@402676e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3462e99a]
+2020-07-13 13:13:21.037 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:13:21.122 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:13:21.157 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:13:21.330 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:13:21.330 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:13:21.493 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:13:21.494 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:13:21.732 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:13:21.751 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:13:21.751 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:13:21.751 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:13:21.751 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:13:21.752 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:13:21.752 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:13:21.752 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:13:21.881 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:13:21.883 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:13:21.886 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:13:21.889 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594617201888 with initial instances count: 5
+2020-07-13 13:13:21.894 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:13:21.894 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594617201894, current=UP, previous=STARTING]
+2020-07-13 13:13:21.896 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:13:21.919 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:13:21.924 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:13:21.952 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:13:21.954 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:13:21.967 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 5.976 seconds (JVM running for 8.14)
+2020-07-13 13:13:22.123 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:13:22.124 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:13:22.125 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:13:22.138 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2020-07-13 13:13:22.818 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:13:23.041 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:13:23.043 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:16:48.076 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:16:48.078 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:16:48.097 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:16:48.103 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:16:48.253 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:16:48.265 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:16:48.269 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:16:51.277 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:16:51.283 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:16:51.304 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:16:59.094 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:17:00.355 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:17:00.362 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:17:00.428 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-07-13 13:17:00.985 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:17:11.295 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:17:12.229 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:17:12.232 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:17:12.252 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:17:12.565 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:17:12.708 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:17:12.711 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:17:12.716 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@675b18ff' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:17:12.717 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:17:12.719 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:17:13.017 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:17:13.027 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:17:13.028 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:17:13.029 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:17:13.161 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:17:13.162 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2020-07-13 13:17:13.275 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:17:13.289 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5896cb9c
+2020-07-13 13:17:14.228 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:17:14.401 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:17:14.877 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 1890f420-2ed4-4ddd-879c-9b8d9c7a57a7
+
+2020-07-13 13:17:15.112 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4023d23f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ae88712, org.springframework.security.web.header.HeaderWriterFilter@64908ab9, org.springframework.security.web.authentication.logout.LogoutFilter@3d2b13f, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7d2be319, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4504a4ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@da11873, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@aaa7000, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@402676e3, org.springframework.security.web.session.SessionManagementFilter@36857d32, org.springframework.security.web.access.ExceptionTranslationFilter@3e8fe7db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@627d5f1]
+2020-07-13 13:17:15.360 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:17:15.453 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:17:15.485 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:17:15.670 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:17:15.671 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:17:15.831 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:17:15.831 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:17:16.064 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:17:16.086 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:17:16.086 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:17:16.087 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:17:16.087 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:17:16.088 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:17:16.088 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:17:16.089 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:17:16.219 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:17:16.222 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:17:16.224 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:17:16.228 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594617436227 with initial instances count: 4
+2020-07-13 13:17:16.233 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:17:16.233 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594617436233, current=UP, previous=STARTING]
+2020-07-13 13:17:16.235 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:17:16.258 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:17:16.262 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:17:16.290 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:17:16.292 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:17:16.303 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.117 seconds (JVM running for 7.829)
+2020-07-13 13:17:16.567 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:17:16.568 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:17:16.568 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:17:16.584 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 16 ms
+2020-07-13 13:17:17.244 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:17:17.484 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:17:17.486 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:20:03.674 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:20:03.677 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:20:03.695 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:20:03.700 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:20:03.833 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:20:03.847 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:20:03.851 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:20:06.855 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:20:06.863 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:20:06.878 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:20:28.527 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:20:29.494 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:20:29.496 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:20:29.516 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:20:29.818 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:20:29.956 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:20:29.959 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:20:29.964 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@48d739f' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:20:29.967 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:20:29.969 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:20:30.273 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:20:30.283 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:20:30.284 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:20:30.285 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:20:30.415 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:20:30.415 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1860 ms
+2020-07-13 13:20:30.527 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:20:30.540 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2c0798bd
+2020-07-13 13:20:31.472 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:20:31.647 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:20:32.116 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 29b8501b-5903-4750-bd76-f81a23d28928
+
+2020-07-13 13:20:32.383 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fe9a396, org.springframework.security.web.context.SecurityContextPersistenceFilter@58c36104, org.springframework.security.web.header.HeaderWriterFilter@65698020, org.springframework.security.web.authentication.logout.LogoutFilter@7fce1069, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@627d5f1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@587f6634, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29fc83c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@220f6a3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@462b239f, org.springframework.security.web.session.SessionManagementFilter@3370be55, org.springframework.security.web.access.ExceptionTranslationFilter@700202fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c451c4a]
+2020-07-13 13:20:32.654 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:20:32.757 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:20:32.793 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:20:32.979 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:20:32.979 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:20:33.147 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:20:33.148 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:20:33.374 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:20:33.393 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:20:33.393 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:20:33.394 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:20:33.394 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:20:33.394 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:20:33.394 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:20:33.395 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:20:33.533 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:20:33.536 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:20:33.538 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:20:33.542 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594617633541 with initial instances count: 4
+2020-07-13 13:20:33.546 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:20:33.547 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594617633547, current=UP, previous=STARTING]
+2020-07-13 13:20:33.549 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:20:33.573 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:20:33.576 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:20:33.612 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:20:33.613 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:20:33.629 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.145 seconds (JVM running for 7.955)
+2020-07-13 13:20:33.839 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:20:33.839 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:20:33.839 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:20:33.855 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 15 ms
+2020-07-13 13:20:34.418 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:20:34.648 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:20:34.651 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:24:48.215 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:24:48.219 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:24:48.224 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:24:48.225 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:24:48.358 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:24:48.376 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:24:48.382 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:24:51.390 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:24:51.398 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:24:51.413 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:25:20.481 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:25:21.453 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:25:21.457 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:25:21.477 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-07-13 13:25:21.821 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:25:21.961 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:25:21.964 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:25:21.969 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2dbfa972' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:25:21.970 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:25:21.972 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:25:22.277 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:25:22.287 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:25:22.288 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:25:22.289 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:25:22.421 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:25:22.422 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1910 ms
+2020-07-13 13:25:22.536 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:25:22.551 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@671d97bc
+2020-07-13 13:25:23.520 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:25:23.703 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:25:24.244 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: e9db61ac-988e-4345-97b5-d512c8058518
+
+2020-07-13 13:25:24.563 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fa29b9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eb041b5, org.springframework.security.web.header.HeaderWriterFilter@39a30d1a, org.springframework.security.web.authentication.logout.LogoutFilter@70cac22a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@af94b0b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4ef28dc4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a3333be, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73fe7483, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d5e051e, org.springframework.security.web.session.SessionManagementFilter@69c0bae6, org.springframework.security.web.access.ExceptionTranslationFilter@73a1a1b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73ff7a54]
+2020-07-13 13:25:24.788 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:25:24.895 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:25:24.931 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:25:25.115 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:25:25.115 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:25:25.279 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:25:25.280 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:25:25.557 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:25:25.597 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:25:25.598 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:25:25.598 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:25:25.598 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:25:25.599 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:25:25.599 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:25:25.600 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:25:26.509 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:25:26.552 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:25:26.593 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:25:26.625 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594617926622 with initial instances count: 4
+2020-07-13 13:25:26.799 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:25:26.801 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594617926801, current=UP, previous=STARTING]
+2020-07-13 13:25:26.854 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:25:27.220 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:25:27.269 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:25:27.400 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:25:27.402 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:25:27.414 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 7.792 seconds (JVM running for 9.766)
+2020-07-13 13:25:27.808 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:25:27.809 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:25:27.810 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:25:27.824 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 14 ms
+2020-07-13 13:25:28.587 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:25:28.851 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:25:28.853 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:28:21.001 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:28:21.003 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:28:21.014 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:28:21.036 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:28:21.154 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:28:21.171 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:28:21.177 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:28:24.181 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:28:24.186 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:28:24.200 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:28:46.343 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:28:47.356 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:28:47.359 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:28:47.378 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:28:47.655 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:28:47.798 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:28:47.802 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:28:47.807 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@62a6674f' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:28:47.811 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:28:47.813 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:28:48.176 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:28:48.186 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:28:48.187 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:28:48.188 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:28:48.344 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:28:48.345 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1968 ms
+2020-07-13 13:28:48.462 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:28:48.484 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@43c0c13a
+2020-07-13 13:28:49.528 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:28:49.707 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:28:50.434 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 2b85f5de-394b-487c-9176-585d8f9dfd01
+
+2020-07-13 13:28:50.724 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c0fe6c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@9a37591, org.springframework.security.web.header.HeaderWriterFilter@27575bcd, org.springframework.security.web.authentication.logout.LogoutFilter@333efb51, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2d5e051e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7fd4b9ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4468c0ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35c95869, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61607ff0, org.springframework.security.web.session.SessionManagementFilter@37a0fc8c, org.springframework.security.web.access.ExceptionTranslationFilter@20a25f66, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7910e307]
+2020-07-13 13:28:51.110 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:28:51.275 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:28:51.310 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:28:51.527 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:28:51.527 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:28:51.690 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:28:51.690 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:28:51.923 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:28:51.949 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:28:51.949 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:28:51.950 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:28:51.950 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:28:51.950 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:28:51.950 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:28:51.951 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:28:52.245 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:28:52.253 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:28:52.260 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:28:52.274 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594618132268 with initial instances count: 4
+2020-07-13 13:28:52.283 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:28:52.288 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594618132287, current=UP, previous=STARTING]
+2020-07-13 13:28:52.292 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:28:52.356 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:28:52.356 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:28:52.410 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:28:52.412 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:28:52.423 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 7.016 seconds (JVM running for 8.678)
+2020-07-13 13:28:52.778 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:28:52.779 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:28:52.780 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:28:52.792 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2020-07-13 13:28:53.420 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:28:53.654 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:28:53.656 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:32:37.593 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:32:37.603 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:32:37.625 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:32:37.639 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:32:37.790 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:32:37.816 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:32:37.823 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:32:40.830 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:32:40.842 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:32:40.861 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:32:47.804 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:32:48.791 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:32:48.794 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:32:48.813 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:32:49.097 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:32:49.231 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:32:49.234 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:32:49.240 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5e905f2c' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:32:49.243 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:32:49.245 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:32:49.536 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:32:49.547 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:32:49.548 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:32:49.549 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:32:49.679 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:32:49.680 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2020-07-13 13:32:49.793 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:32:49.808 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2ad2b274
+2020-07-13 13:32:50.748 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:32:50.915 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:32:51.411 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: c005f93f-99dc-4334-ac76-5c3238938eb8
+
+2020-07-13 13:32:51.631 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7910e307, org.springframework.security.web.context.SecurityContextPersistenceFilter@299ddfff, org.springframework.security.web.header.HeaderWriterFilter@46290193, org.springframework.security.web.authentication.logout.LogoutFilter@41cf4272, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@418bdde9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b3ee43e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e02fb23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10b2c1cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@460aa24e, org.springframework.security.web.session.SessionManagementFilter@57a0c261, org.springframework.security.web.access.ExceptionTranslationFilter@2dfd157b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62dfe152]
+2020-07-13 13:32:51.884 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:32:51.977 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:32:52.011 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:32:52.196 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:32:52.197 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:32:52.352 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:32:52.352 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:32:52.574 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:32:52.601 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:32:52.602 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:32:52.602 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:32:52.603 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:32:52.603 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:32:52.603 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:32:52.603 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:32:52.735 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:32:52.738 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:32:52.741 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:32:52.745 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594618372744 with initial instances count: 5
+2020-07-13 13:32:52.749 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:32:52.750 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594618372750, current=UP, previous=STARTING]
+2020-07-13 13:32:52.752 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:32:52.777 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:32:52.778 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:32:52.812 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:32:52.813 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:32:52.823 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.077 seconds (JVM running for 7.752)
+2020-07-13 13:32:53.103 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:32:53.104 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:32:53.105 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:32:53.117 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2020-07-13 13:32:53.722 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:32:53.978 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:32:53.980 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:35:21.972 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:35:21.974 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:35:21.987 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:35:21.987 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:35:22.131 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:35:22.142 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:35:22.146 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:35:25.151 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:35:25.159 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:35:25.174 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:35:31.808 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:35:32.757 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:35:32.760 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:35:32.780 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-07-13 13:35:33.093 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:35:33.240 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:35:33.243 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:35:33.248 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6ac45c0c' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:35:33.249 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:35:33.251 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:35:33.550 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:35:33.560 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:35:33.561 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:35:33.562 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:35:33.710 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:35:33.710 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1863 ms
+2020-07-13 13:35:33.832 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:35:33.847 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@192b472d
+2020-07-13 13:35:34.778 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:35:34.936 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:35:35.405 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 95eec853-b14f-4279-a2c8-18e2a012a942
+
+2020-07-13 13:35:35.639 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@89465d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@337c0ee4, org.springframework.security.web.header.HeaderWriterFilter@27e3dc9a, org.springframework.security.web.authentication.logout.LogoutFilter@7c37ac3c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@58ca6ba3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@593354fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f95654c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54087bdb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fdd3382, org.springframework.security.web.session.SessionManagementFilter@73ff7a54, org.springframework.security.web.access.ExceptionTranslationFilter@3ee68eb2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e4d93f7]
+2020-07-13 13:35:35.866 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:35:35.974 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:35:36.036 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:35:36.217 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:35:36.217 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:35:36.379 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:35:36.379 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:35:36.604 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:35:36.622 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:35:36.622 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:35:36.623 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:35:36.623 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:35:36.623 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:35:36.623 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:35:36.623 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:35:36.752 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:35:36.755 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:35:36.757 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:35:36.761 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594618536760 with initial instances count: 4
+2020-07-13 13:35:36.766 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:35:36.767 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594618536766, current=UP, previous=STARTING]
+2020-07-13 13:35:36.769 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:35:36.792 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:35:36.795 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:35:36.827 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:35:36.828 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:35:36.838 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.199 seconds (JVM running for 7.883)
+2020-07-13 13:35:37.094 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:35:37.096 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:35:37.096 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:35:37.108 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2020-07-13 13:35:37.631 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:35:37.863 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:35:37.887 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:37:25.173 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:37:25.176 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:37:25.190 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:37:25.203 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:37:25.341 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:37:25.361 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:37:25.368 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:37:28.377 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:37:28.385 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:37:28.404 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:37:35.109 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:37:36.078 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:37:36.081 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:37:36.101 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:37:36.414 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:37:36.562 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:37:36.565 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:37:36.570 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@69a40b3c' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:37:36.571 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:37:36.573 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:37:36.875 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:37:36.884 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:37:36.886 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:37:36.886 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:37:37.058 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:37:37.059 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1918 ms
+2020-07-13 13:37:37.190 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:37:37.201 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2d6a0766
+2020-07-13 13:37:38.141 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:37:38.361 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:37:38.838 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 2723942a-9a3b-437d-a9ee-3ad95a3dbf43
+
+2020-07-13 13:37:39.060 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74797b90, org.springframework.security.web.context.SecurityContextPersistenceFilter@57e6d56a, org.springframework.security.web.header.HeaderWriterFilter@5da2966, org.springframework.security.web.authentication.logout.LogoutFilter@7ee3a2ed, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2c451c4a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ea0c99c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1504b493, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21ed4a51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7676b2b9, org.springframework.security.web.session.SessionManagementFilter@5e02fb23, org.springframework.security.web.access.ExceptionTranslationFilter@2fc435e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35d2312f]
+2020-07-13 13:37:39.289 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:37:39.387 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:37:39.420 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:37:39.658 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:37:39.659 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:37:39.802 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:37:39.802 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:37:40.042 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:37:40.060 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:37:40.061 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:37:40.061 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:37:40.061 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:37:40.062 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:37:40.062 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:37:40.062 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:37:40.197 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:37:40.199 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:37:40.201 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:37:40.205 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594618660204 with initial instances count: 5
+2020-07-13 13:37:40.208 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:37:40.209 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594618660209, current=UP, previous=STARTING]
+2020-07-13 13:37:40.211 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:37:40.230 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:37:40.234 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:37:40.255 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:37:40.257 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:37:40.269 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.188 seconds (JVM running for 7.896)
+2020-07-13 13:37:40.563 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:37:40.564 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:37:40.564 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:37:40.575 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2020-07-13 13:37:41.066 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:37:41.306 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:37:41.308 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:42:40.074 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:43:31.491 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:43:31.493 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:43:31.528 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:43:31.531 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:43:31.689 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:43:31.710 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:43:31.718 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:43:34.725 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:43:34.732 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:43:34.752 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:43:41.337 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:43:42.399 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:43:42.402 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:43:42.421 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:43:42.717 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:43:42.858 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:43:42.861 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:43:42.866 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@67f946c3' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:43:42.869 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:43:42.871 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:43:43.162 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:43:43.174 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:43:43.175 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:43:43.176 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:43:43.305 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:43:43.305 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1937 ms
+2020-07-13 13:43:43.417 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:43:43.438 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@67e6eb52
+2020-07-13 13:43:44.375 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:43:44.581 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:43:45.057 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 2f8af1cb-22dc-4855-b285-564ece7bf7bd
+
+2020-07-13 13:43:45.279 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60ba6631, org.springframework.security.web.context.SecurityContextPersistenceFilter@3462e99a, org.springframework.security.web.header.HeaderWriterFilter@b63365c, org.springframework.security.web.authentication.logout.LogoutFilter@7dfca9e6, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@6ed7c178, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25c4f621, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7320750c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@522fb69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d2950ed, org.springframework.security.web.session.SessionManagementFilter@9f52eb7, org.springframework.security.web.access.ExceptionTranslationFilter@61607ff0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f95158a]
+2020-07-13 13:43:45.731 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:43:46.021 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:43:46.071 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:43:46.366 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:43:46.367 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:43:46.619 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:43:46.620 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:43:46.886 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:43:46.905 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:43:46.906 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:43:46.906 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:43:46.907 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:43:46.907 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:43:46.907 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:43:46.908 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:43:47.052 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:43:47.058 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:43:47.061 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:43:47.065 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594619027064 with initial instances count: 5
+2020-07-13 13:43:47.068 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:43:47.069 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594619027069, current=UP, previous=STARTING]
+2020-07-13 13:43:47.071 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:43:47.095 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:43:47.099 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:43:47.132 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:43:47.133 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:43:47.144 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 6.491 seconds (JVM running for 8.085)
+2020-07-13 13:43:47.685 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:43:47.688 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:43:47.688 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:43:47.700 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2020-07-13 13:43:48.249 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:43:48.488 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:43:48.490 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:45:59.437 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:45:59.439 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:45:59.454 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:45:59.467 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:45:59.598 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:45:59.608 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:45:59.612 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:46:02.619 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:46:02.628 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:46:02.645 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:46:10.610 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:46:11.901 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:46:11.904 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:46:11.924 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-07-13 13:46:12.406 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:46:12.547 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:46:12.550 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:46:12.555 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4584304' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:46:12.556 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:46:12.558 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:46:12.880 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:46:12.891 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:46:12.892 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:46:12.893 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:46:13.037 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:46:13.039 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2357 ms
+2020-07-13 13:46:13.331 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:46:13.341 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@45e11627
+2020-07-13 13:46:14.557 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:46:14.819 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:46:15.327 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 6e9d1f51-cd52-4251-885e-309d5a29a800
+
+2020-07-13 13:46:15.586 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58e7f930, org.springframework.security.web.context.SecurityContextPersistenceFilter@38ad86b1, org.springframework.security.web.header.HeaderWriterFilter@4d84688f, org.springframework.security.web.authentication.logout.LogoutFilter@3fecb076, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5b3ee43e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@76673ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@375ff309, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@531bec12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@406808eb, org.springframework.security.web.session.SessionManagementFilter@333efb51, org.springframework.security.web.access.ExceptionTranslationFilter@1a4ae53d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ac326c0]
+2020-07-13 13:46:15.836 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:46:15.932 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:46:15.988 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:46:16.190 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:46:16.190 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:46:16.378 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:46:16.379 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:46:16.610 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:46:16.630 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:46:16.631 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:46:16.631 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:46:16.631 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:46:16.632 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:46:16.632 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:46:16.632 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:46:16.775 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:46:16.778 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:46:16.781 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:46:16.785 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594619176783 with initial instances count: 5
+2020-07-13 13:46:16.794 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:46:16.794 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594619176794, current=UP, previous=STARTING]
+2020-07-13 13:46:16.797 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:46:16.830 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:46:16.833 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:46:16.880 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:46:16.881 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:46:16.891 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 7.631 seconds (JVM running for 9.289)
+2020-07-13 13:46:17.304 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:46:17.304 - INFO  [)-192.168.1.164] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:46:17.305 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:46:17.321 - INFO  [)-192.168.1.164] o.s.w.s.FrameworkServlet       : Completed initialization in 15 ms
+2020-07-13 13:46:17.955 - INFO  [)-192.168.1.164] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:46:18.279 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:46:18.281 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:48:57.917 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 13:48:57.929 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:48:57.955 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:48:57.958 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:48:58.116 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 13:48:58.133 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 13:48:58.140 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 13:49:01.149 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 13:49:01.155 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - deregister  status: 200
+2020-07-13 13:49:01.169 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient
+2020-07-13 13:49:08.248 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2020-07-13 13:49:09.667 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-13 13:49:09.671 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-13 13:49:09.701 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-13 13:49:10.077 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=c05e6700-b514-32d9-b7c6-8aa605276c89
+2020-07-13 13:49:10.299 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:49:10.304 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:49:10.310 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@cdb3c85' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:49:10.314 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:49:10.316 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-13 13:49:10.702 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8006 (http)
+2020-07-13 13:49:10.718 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:49:10.720 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-07-13 13:49:10.721 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-13 13:49:10.925 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-07-13 13:49:10.926 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2641 ms
+2020-07-13 13:49:11.066 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:49:11.081 - INFO  [           main] c.n.c.DynamicPropertyFactory   : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@349312d5
+2020-07-13 13:49:12.985 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-13 13:49:13.366 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 13:49:14.506 - INFO  [           main] etailsServiceAutoConfiguration : 
+
+Using generated security password: 6c4f91b1-869b-4859-a37c-3e18c65b83fe
+
+2020-07-13 13:49:14.885 - INFO  [           main] s.w.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/dd/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@531bec12, org.springframework.security.web.context.SecurityContextPersistenceFilter@129aaac1, org.springframework.security.web.header.HeaderWriterFilter@495f7ca4, org.springframework.security.web.authentication.logout.LogoutFilter@46290193, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@10b2c1cf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@375ff309, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d2b13f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e225c34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24563809, org.springframework.security.web.session.SessionManagementFilter@670ae31f, org.springframework.security.web.access.ExceptionTranslationFilter@58d79479, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49cd08f9]
+2020-07-13 13:49:15.168 - INFO  [           main] .b.a.e.w.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-13 13:49:15.286 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2020-07-13 13:49:15.332 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2020-07-13 13:49:15.559 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-13 13:49:15.559 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-13 13:49:15.771 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-13 13:49:15.772 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-13 13:49:16.086 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:49:16.107 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2020-07-13 13:49:16.107 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2020-07-13 13:49:16.108 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2020-07-13 13:49:16.108 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2020-07-13 13:49:16.108 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2020-07-13 13:49:16.108 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2020-07-13 13:49:16.109 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2020-07-13 13:49:16.250 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2020-07-13 13:49:16.253 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2020-07-13 13:49:16.257 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-13 13:49:16.262 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1594619356261 with initial instances count: 5
+2020-07-13 13:49:16.267 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application YAPI-BJ with eureka with status UP
+2020-07-13 13:49:16.267 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1594619356267, current=UP, previous=STARTING]
+2020-07-13 13:49:16.269 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 13:49:16.298 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 13:49:16.300 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8006"]
+2020-07-13 13:49:16.325 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8006 (http) with context path ''
+2020-07-13 13:49:16.326 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8006
+2020-07-13 13:49:16.333 - INFO  [           main] o.s.b.StartupInfoLogger        : Started OpenApiQuoteApplication in 9.263 seconds (JVM running for 12.097)
+2020-07-13 13:49:16.494 - INFO  [on(5)-127.0.0.1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-07-13 13:49:16.495 - INFO  [on(4)-127.0.0.1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 13:49:16.496 - INFO  [on(4)-127.0.0.1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-07-13 13:49:16.508 - INFO  [on(4)-127.0.0.1] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2020-07-13 13:49:17.180 - INFO  [on(5)-127.0.0.1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-07-13 13:49:17.422 - INFO  [oundedElastic-1] i.l.c.EpollProvider            : Starting without optional epoll library
+2020-07-13 13:49:17.443 - INFO  [oundedElastic-1] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2020-07-13 13:54:16.124 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:59:16.143 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:04:16.163 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:10:23.393 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:36:03.001 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:41:03.016 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:46:03.036 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:51:03.052 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:56:03.072 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:01:03.085 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:06:03.100 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:11:03.116 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:16:03.129 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:21:03.142 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:26:03.155 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:31:03.171 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:36:03.190 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:41:03.204 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:46:03.221 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:51:03.234 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:56:03.253 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:01:03.269 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:06:03.286 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:11:03.300 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:12:02.545 - INFO  [extShutdownHook] .c.n.e.s.EurekaServiceRegistry : Unregistering application YAPI-BJ with eureka with status DOWN
+2020-07-13 16:12:02.620 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006: registering service...
+2020-07-13 16:12:02.728 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_YAPI-BJ/192.168.1.164:8006 - registration status: 204
+2020-07-13 16:12:03.503 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:12:03.961 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-07-13 16:12:03.980 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-07-13 16:12:04.090 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Shutting down DiscoveryClient ...
+2020-07-13 16:12:07.096 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Unregistering ...
+2020-07-13 16:12:07.181 - INFO  [extShutdownHook] c.n.d.DiscoveryClient          : Completed shut down of DiscoveryClient

@@ -8,6 +8,11 @@
           <option name="label" value="1" />
           <option name="serverUrl" value="localhost:6379" />
         </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="databaseVendor" value="DatabaseVendor{name='RedisDB'}" />
+          <option name="label" value="1213" />
+          <option name="serverUrl" value="139.9.147.209:6379" />
+        </ServerConfiguration>
       </list>
     </option>
   </component>
