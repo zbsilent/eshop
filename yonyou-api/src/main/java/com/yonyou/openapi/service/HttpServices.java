@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author zbsilent
  */
 @Service
-@FeignClient(name = "getToken",url = "https://openapi.yonyoucloud.com",fallbackFactory = HostServiceFallbackFactory.class)
+@FeignClient(name = "getOpenApiToken",url = "https://openapi.yonyoucloud.com",fallbackFactory = HostServiceFallbackFactory.class)
 public interface HttpServices {
 
 

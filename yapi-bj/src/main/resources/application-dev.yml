@@ -1,9 +1,9 @@
 server:
-  port: 8003
+  port: 8006
 
 spring:
   application:
-    name: eshop-auth
+    name: yapi-bj
   redis:
     database: 0
     host: localhost
@@ -46,8 +46,6 @@ eureka:
       defaultZone: http://localhost:8001/eureka/
 
 mybatis:
-  type-aliases-package: com.island.eshop.common.entity
-  mapper-locations: classpath:mybatis/*.xml
   configuration:
     map-underscore-to-camel-case: true  #开启驼峰命名,l_name -> lName
     jdbc-type-for-null: NULL
@@ -55,3 +53,28 @@ mybatis:
     aggressive-lazy-loading: true
     cache-enabled: true #开启二级缓存
     call-setters-on-nulls: true #map空列不显示问题
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #org.apache.ibatis.logging.stdout.StdOutImpl 控制台打印sql语句方便调试sql语句执行错误
+    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
+    #这个不在控制台打印查询结果,但是在log4j中打印
+logging:
+  config: classpath:log4j2.yml
+#  level:
+#    com.yonyou.yapi.bj.mapper: trace
+# 认证用户加载
+security:
+  oauth2:
+    resource:
+      id: eshop-member
+      #指定用户信息地址
+      user-info-uri: http://localhost:8002/auth/api/member
+      prefer-token-info: false
+
+feign:
+  httpclient:
+    enabled: false
+    connection-timeout: 60000
+  okhttp:
+    enabled: true
+  hystrix:
+    enabled: false

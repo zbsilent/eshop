@@ -30,6 +30,10 @@ zuul:
       path: /openapi/** # 服务地址
       serviceId: yonyou-api
       sensitiveHeaders: "*"
+    yapi: # 名字随便起
+      path: /yapi/** # 服务地址
+      serviceId: yapi-bj
+      sensitiveHeaders: "*"
   # 是否开启重试
   retryable: false
   # 会过滤服务之间通信附带的headers
@@ -58,8 +62,8 @@ security:
 
 #----------------------超时配置-------------------
 ribbon:
-  ReadTimeout: 3000
-  ConnectTimeout: 3000
+  ReadTimeout: 4000
+  ConnectTimeout: 4000
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 2
   # 金庸eurecka
@@ -73,4 +77,4 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 3500
+            timeoutInMilliseconds: 4000

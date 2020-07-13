@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eshop-server" />
+        <module name="yapi-bj" />
         <module name="eshop-gateway" />
         <module name="eshop-auth" />
         <module name="eshop-common" />
@@ -30,6 +31,7 @@
       <module name="eshop-gateway" options="-parameters" />
       <module name="eshop-member" options="-parameters" />
       <module name="eshop-server" options="-parameters" />
+      <module name="yapi-bj" options="-parameters" />
       <module name="yonyou-api" options="-parameters" />
     </option>
   </component>

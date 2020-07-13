@@ -7,6 +7,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 /**
  * @author zbsilent
  */
@@ -38,7 +40,7 @@ public class HttpController {
             modelMap.addAttribute("token",JSONObject.parseObject(token).getString("data"));
         }
         if(modelMap.containsKey("token")){
-            return INDEX_URL;
+             return JSONObject.parseObject(modelMap.getAttribute("token").toString()).getString("access_token");
         }else{
             return "查询异常";
         }
