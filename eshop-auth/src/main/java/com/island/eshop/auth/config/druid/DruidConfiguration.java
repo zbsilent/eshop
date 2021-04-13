@@ -18,6 +18,7 @@ import java.sql.SQLException;
 
 
 /**
+ * 数据库连接池配置
  * 〈druid连接池配置〉
  * @author zbsilent
  */
